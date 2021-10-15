@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="G9K5c/f_1KHk?MZjxoK*">mySprite</variable><variable type="KIND_SpriteKind" id="0:,DI60g1t-q+`VTPL5f">Player</variable><variable type="KIND_SpriteKind" id="hX@pn=L(d!rpqW/9g-OY">Projectile</variable><variable type="KIND_SpriteKind" id="?@MzUT0TF$!]$(*JG4,i">Food</variable><variable type="KIND_SpriteKind" id="{-#m^u[Or+)0-U~UeSj?">Enemy</variable></variables><block type="pxt-on-start" id="8jC(UQF;zOP[@Cth.`Je" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="2dqA36BFhx~PacXjg-.b"><field name="VAR" id="G9K5c/f_1KHk?MZjxoK*">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="?+QypU^2[xs.j_(-pUKb"><value name="img"><shadow type="screen_image_picker" id="v02c;!wb^U9(e@97I,sp"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"v02c;!wb^U9(e@97I,sp"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="b/GS|w|y:x|xo$OI[)}8"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetpos" id="u.,5)6TCq+nJvTFUbAJ0"><value name="sprite"><block type="variables_get" id="f|voyTY5n2UVnor@43jx"><field name="VAR" id="G9K5c/f_1KHk?MZjxoK*">mySprite</field></block></value><value name="x"><shadow type="positionPicker" id="Ycoaaz;M%=V|pij{`=#)"><field name="index">0</field></shadow></value><value name="y"><shadow type="positionPicker" id=")1qHt8p!cEE!)L(X_;n/"><field name="index">0</field></shadow></value><next><block type="mixer_play_sound" id="5a}Y8=/Xf5_|^x8cD!F8"><field name="sound">music.baDing</field></block></next></block></next></block></statement></block></xml>
